@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.mapaEstrelas {
+    max-width: 80%;
+    height: auto;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    margin-top: 2rem;
+}
