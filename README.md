@@ -1,3 +1,7 @@
+ No código, deixei hardcode as coordenas de São Paulo e chaves das apis (que não subi pro git). Caso queira clonar, não esqueça de mudar as coordenadas, criar e colocar suas chaves.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
