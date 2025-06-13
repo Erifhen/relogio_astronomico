@@ -5,6 +5,7 @@ import ClimaAtual from "./components/climaComponente";
 import ConstelacaoAtual from "./components/constelacaoComponente";
 import LuaImagem from "./components/luaImagem";
 import './styles.css';
+import ZodiacClock from "./components/RodaZodiacal";
 
 
 function App() {
@@ -14,7 +15,9 @@ function App() {
     <ClimaAtual/>
     <LuaAtual/>
     <LuaImagem/>
-    <ConstelacaoAtual/>
+    <h2>Relógio zodiacal:</h2>
+    <ZodiacClock/>
+    {/*<ConstelacaoAtual/>*/}
     </div>
   );
 };
