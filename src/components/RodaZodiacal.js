@@ -36,7 +36,9 @@ function getCurrentSign(date = new Date()) {
 
 export default function ZodiacClock() {
   const sign = getCurrentSign();
-  const rotationDegrees = sign ? -sign.index * 30 : 0;
+  const imageOffSet =  8;
+  const adjustedIndex = (sign.index - imageOffSet + 12) % 12;
+  const rotationDegrees = -adjustedIndex * 32;
 
   return (
     <div style={{ width: 600, height: 600, position: "relative" }}>

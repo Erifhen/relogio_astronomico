@@ -5,11 +5,12 @@ import axios from 'axios';
 const ClimaAtual = () => {
     const [climaAgora, setClimaAgora] = useState(null);
 
+
     useEffect(() =>{
 
         const buscarClima = async () => {
             try{
-                const apiKey = '90788391024cab8cb34c97ebcaf7a61e';
+                const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;;
                 const city = 'Sao Paulo';
                 const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=pt`);
                 setClimaAgora(response.data);
