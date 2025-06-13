@@ -38,7 +38,7 @@ const MapaAstroAtual = () => {
                     JSON.stringify(requestData), 
                     {
                         headers: {
-                            'Authorization': 'Basic sua_chave_api',
+                            'Authorization': 'Basic MmJjMmE2YjktZGY4MC00NWJjLWEyM2YtYjNhNTBiNzExNzZiOmE4NDc4ZjcxZjdkYjc2MTFmNGZkNjNkMGE3MWUwNWFmNDBhNzRiODk4OTIzMDQyODg1MTA3ODdhNGZmYzc2M2IzYzg4NDE5ZDc5ZDAyNGMyMWRjYzY5ZjRiYzU4ZmM0ZDJhYTBkMzA5ODM5YzA0ZWRiNTdkNDNhMjJiZDA1MzYxYWFkZjk2ZTNjNjMzYzA0M2ZlMDM5MWJkZTdhYmVkZGJmYzk1M2RhNjlmYWVhZDZjOWNkNTRlN2YwNzJiZjliNWEyNjhiZmE5N2RkMDdkZDkxNjJhM2I3ZGFlNjYyYTVi',
                             'Content-Type': 'application/json'
                         }
                     }
