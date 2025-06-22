@@ -36,12 +36,12 @@ function getCurrentSign(date = new Date()) {
 
 export default function ZodiacClock() {
   const sign = getCurrentSign();
-  const imageOffSet =  8;
+  const imageOffSet =  9;
   const adjustedIndex = (sign.index - imageOffSet + 12) % 12;
-  const rotationDegrees = -adjustedIndex * 32;
+  const rotationDegrees = adjustedIndex * 32.5;
 
   return (
-    <div style={{ width: 600, height: 600, position: "relative" }}>
+    <div style={{ width: 450, height: 450, position: "relative", margin: 20 }}>
       <img
         src={image}
         alt="Zodiac Wheel"
